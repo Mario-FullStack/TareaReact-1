@@ -6,7 +6,7 @@ function Boton({cargando}) {
 
   function mensajeBoton() {
     setCambiarBool(current => !current)
-    }
+  }
   
 
     return (
