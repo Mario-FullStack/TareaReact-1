@@ -11,8 +11,9 @@ function TarjetaAnimales() {
 
     return (
         <div>
+            <h2>Top 5 de felinos peligrosos</h2>
             {animales.map(({id, name})=>{
-                return <h1>{id}{name}</h1>
+                return <p key={id}>El # {id} el el{name}.</p>
             })}
         </div>
     ) 
